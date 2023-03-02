@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+#box {
+    width: 2000px;
+    height: 730px;
+    border: 9px solid;
+    background-color: aliceblue;
+}
+#biriyani {
+    float: left;
+    margin: 20px 20px;
+    width: 380px;
+    height: 320px;
+    border: 2px solid;
+    background-color: aqua;
+}
+#desserts {
+    float: left;
+    margin: 20px 20px;
+    width: 380px;
+    height: 320px;
+    border: 2px solid;
+    background-color: firebrick;
+}
+#ice-cream {
+    float: left;
+    margin: 20px 20px;
+    width: 380px;
+    height: 320px;
+    border: 2px solid;
+    background-color: lavender;
+}
+#fastfood {
+    float: left;
+    margin: 20px 20px;
+    width: 380px;
+    height: 320px;
+    border: 2px solid;
+    background-color: khaki;
+}
+#lunch {
+    float: left;
+    margin: 20px 20px;
+    width: 380px;
+    height: 320px;
+    border: 2px solid;
+    background-color: hotpink;
+}
+#juices {
+    float: left;
+    margin: 20px 20px;
+    width: 380px;
+    height: 320px;
+    border: 2px solid;
+    background-color: gainsboro;
+}
