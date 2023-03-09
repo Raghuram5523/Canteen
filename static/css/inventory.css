@@ -7,55 +7,57 @@ body {
 }
 #box {
     width: 2000px;
-    height: 730px;
+    height: 3200px;
     border: 9px solid;
     background-color: aliceblue;
 }
 #biriyani {
     float: left;
     margin: 20px 20px;
-    width: 380px;
-    height: 320px;
+    width: 600px;
+    height: 600px;
     border: 2px solid;
-    background-color: aqua;
+    background-image: url("/static/Images/Veg-Biriyani.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #desserts {
     float: left;
     margin: 20px 20px;
-    width: 380px;
-    height: 320px;
-    border: 2px solid;
-    background-color: firebrick;
+    width: 600px;
+    height: 600px;
+    background-image: url("/static/Images/Dessert.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #ice-cream {
     float: left;
     margin: 20px 20px;
-    width: 380px;
-    height: 320px;
+    width: 600px;
+    height: 600px;
     border: 2px solid;
-    background-color: lavender;
 }
 #fastfood {
     float: left;
     margin: 20px 20px;
-    width: 380px;
-    height: 320px;
+    width: 600px;
+    height: 600px;
     border: 2px solid;
     background-color: khaki;
 }
 #lunch {
     float: left;
     margin: 20px 20px;
-    width: 380px;
-    height: 320px;
+    width: 600px;
+    height: 600px;
     border: 2px solid;
     background-color: hotpink;
 }
 #juices {
     float: left;
     margin: 20px 20px;
-    width: 380px;
-    height: 320px;
+    width: 600px;
+    height: 600px;
     border: 2px solid;
     background-color: gainsboro;
 }
