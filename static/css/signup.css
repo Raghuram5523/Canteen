@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    background-image: url(https://www.mashed.com/img/gallery/the-absolute-best-indian-food-in-the-u-s/intro-1643223941.jpg);
+    margin-top: 40px;
+}
+
+.regform{
+    width: 800px;
+    background-color: rgb(0,0,0,.8);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgb(0,0,0,.8);
+    width: 800px;
+    margin: auto;
+}
+
+form{
+    padding: 10px;
+}
+
+
+#name{
+    width: 100%;
+    height: 20px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+ 
+.firstname{
+    position:relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position:relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.User {
+    margin-left: 25px;
+    margin-top: 60px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.username {
+    position:relative;
+    left: 200px;
+    top: -50px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.Branch{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.branch{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.option{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0px 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+.option option{
+    font-size: 20px;
+}
+
+.College{
+    margin-left: 25px;
+    margin-top: 8px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.college{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0px 75px;
+    font-size: 16px;
+}
+
+.E-mail{
+    margin-left: 25px;
+    margin-top: 8px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0 75px;
+    font-size: 16px;
+}
+
+.Age{
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.age{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0px 0px;
+    font-size: 16px;
+}
+
+.Gender{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.gender{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+
+.option{
+    position: relative;
+    left: 200px;
+    top: 37px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0px 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+.option option{
+    font-size: 20px;
+}
+
+.PhoneNumber{
+    margin-left: 25px;
+    margin-top: 8px;
+    width: 175px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+ 
+.Code{
+    position: relative;
+    left: 190px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    width: 60px;
+    font-size: 16px;
+    padding: 0px 15px;
+    
+}
+
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    height: 40px;
+    color: black;
+    border-radius: 6px;
+    line-height: 50px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.password{
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pass1{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.pass2{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+#terms{
+    margin-left: -30px;
+    margin-top: 1px;
+    width: 125px;
+}
+ 
+.condition{
+    color: white;
+    font-size: 18px;
+    margin-left: 2px;
+    padding-left: 5px;
+}
+
+.btn{
+    background-color: red ;
+    border-radius: 6px;
+    display: block;
+    margin: 20px 0px 0px 20px ;
+    color: white;
+    border: 2px solid;
+    padding: 12px 120px;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+

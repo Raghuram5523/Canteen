@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 
-class OrderHistory(models.Model):
+class OrderConfirmation(models.Model):
     name = models.CharField(max_length=64)
     orders = models.JSONField()
     email = models.CharField(max_length=64)
@@ -11,3 +11,5 @@ class OrderHistory(models.Model):
     payment_method = models.CharField(max_length=64)
     payment_id = models.CharField(max_length=64)
     date_of_order = models.DateTimeField()
+    class Orders:
+        db_table = 'project_orderhistory'

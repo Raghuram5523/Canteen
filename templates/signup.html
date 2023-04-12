@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <link href="{% static 'css/signup.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="regform"><h1>Customer Registration Form</h1></div>  
+        <div class="main">
+            <form action="{% url 'signup' %}" method="post">
+                {% csrf_token %}
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name" placeholder="First Name" required>
+                    <input class="lastname" type="text" name="last_name" placeholder="Last Name" required>
+                </div>
+                    <h2 class="User">Username</h2>
+                    <input class="username" type="text" name="username" placeholder="Username" required>
+                    <h2 class="Branch">Branch</h2>
+                    <select class="branch" name="branch" required>
+                        <option>-------</option>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>CIVIL</option>
+                        <option>MECH</option>
+                        <option>AIDS</option>
+                        <option>CYBER</option>
+                        <option>IOT</option>
+                        <option>MBA</option>
+                        <option>M.TECH</option>
+                        <option>OTHER</option>
+                    </select>    
+
+                    <h2 class="College">College ID</h2>
+                    <input class="college" type="text" name="collegeid" required>
+
+                    <h2 class="E-mail">E-mail</h2>
+                    <input class="email" type="text" name="email" Placeholder="e.g. zzz@gmail.com" required>
+
+                    <h2 class="Age">Age</h2>
+                    <input class="age" type="number" name="age" required>
+
+                    <h2 class="Gender">Gender</h2>
+                    <select class="gender" name="gender" required="">
+                        <option>-------</option>
+                        <option>Male</option>
+                        <option>Fe-Male</option>
+                        <option>Other</option>
+                    </select>
+
+                    <h2 Class="PhoneNumber">PhoneNumber</h2>
+                    <input class="number" type="text" name="phoneno" placeholder="PhoneNumber" required>
+                    
+                    <h2 class="password">Password</h2>
+                    <input type="password" class="pass1" name="password" Placeholder="Enter Password" required>
+                    <input type="Password" class="pass2" name="cpassword" placeholder="Re-Enter Password" required>
+
+                    <p class="condition"><input type="checkbox" id="terms" name="terms" required>I accept the terms and conditions</p><br>
+
+                    <input type="submit" class="btn" value="register" name="signup"> 
+                <div>
+                    {% for message in messages %}
+                    <h3> {{messages}} </h3>
+                    {% endfor %}
+                </div>
+            </form>
+        </div>
+    </body>
+</html>    
